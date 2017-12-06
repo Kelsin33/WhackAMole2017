@@ -1,5 +1,5 @@
 score = 0;
-	var time_left = 15;
+	var time_left = 30;
 var timerMusic = new Audio("sounds/timerSoundBackground.wav"); //timer music
 var applause = new Audio("sounds/applause.wav"); //applause when score shown
 var moleHit = new Audio("sounds/moleHit.wav"); // mole sound when clicked
