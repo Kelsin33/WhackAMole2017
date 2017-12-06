@@ -1,0 +1,53 @@
+html, body {
+	width: 700px;
+	margin: 0 auto;
+	font-family: sans-serif;
+	font-size: 13px;
+	color: #333;
+	background-color: #336699; }
+
+h1 {
+	margin: 2px;}
+
+button {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 8px; }
+
+#content {
+	padding: 20px;
+	background-color: #EEE ; }
+
+#controls {
+	text-align: right; }
+
+#controls span {
+	font-weight: bold;
+	color: #990000; }
+
+#controls button {
+	margin-left: 20px; }
+
+#timer {
+	display: none;
+	font-weight: bold;
+	margin-left: 20px;
+	color: #336699; }
+
+#gamespace {
+	margin: 20px;
+	padding: 10px;
+	height: 350px;
+	background-color: #FFF;
+	border: 2px solid #CCC;
+	position: relative;
+	cursor: crosshair; }
+
+#gamespace img { position: absolute; }
+
+#mole {
+	display: none; }
+
+.modal{
+	position: absolute;
+	z-index: 1000;}
